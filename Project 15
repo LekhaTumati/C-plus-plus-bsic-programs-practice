@@ -1,0 +1,12 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float r, h;
+    cout << "Enter radius and height\n";
+    cin >> r >> h;
+    cout << "The volume of the cylinder is " << 3.14*r*r*h;
+    return 0;
+}
