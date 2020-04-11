@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int a = 12;
+    int b = 14;
+    int c = a;
+    int d = b;
+    cout << "a = " << a << endl;
+    cout << "b = " << b << endl;
+    cout << "The number's exchanged are:\n";
+    cout << "b = " << c << endl;
+    cout << "a = " << d << endl;
+    return 0;
+}
