@@ -1,0 +1,12 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float a;
+    cout << "Enter the length of the edge\n";
+    cin >> a;
+    cout << "The volume of the cube is " << a*a*a;
+    return 0;
+}
