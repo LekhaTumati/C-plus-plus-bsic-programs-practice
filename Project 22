@@ -1,0 +1,12 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int angle1, angle2;
+    cout << "Enter angle 1 and angle 2\n";
+    cin >> angle1 >> angle2;
+    cout << "The 3rd angle is " << 180-(angle1 + angle2);
+    return 0;
+}
