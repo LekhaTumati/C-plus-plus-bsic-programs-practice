@@ -1,0 +1,12 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float kelvin;
+    cout << "Enter temp. in kelvin\n";
+    cin >> kelvin;
+    cout << "Temp. in Fahrenheit is " << (kelvin - 273.15) * 9/5 + 32;
+    return 0;
+}
