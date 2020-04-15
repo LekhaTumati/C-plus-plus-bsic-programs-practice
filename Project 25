@@ -1,0 +1,12 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float k;
+    cout << "Enter temp. in kelvin\n";
+    cin >> k;
+    cout << "The temp. in Celsius is " << k - 273.15;
+    return 0;
+}
