@@ -1,0 +1,12 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int kmph;
+    cout << "Enter the speed in kmph\n";
+    cin >> kmph;
+    cout << "Speed in miph is " << kmph*0.621371;
+    return 0;
+}
