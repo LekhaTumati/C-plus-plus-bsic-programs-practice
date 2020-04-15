@@ -1,0 +1,12 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+int main()
+{
+    float s;
+    cout << "Enter a side\n";
+    cin >> s;
+
+    cout << "Area of an equilateral triangle is " << sqrt(3)/4*(s*s);
+}
