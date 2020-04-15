@@ -1,0 +1,13 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int r;
+    cout << "Enter the radius\n";
+    cin >> r;
+    cout << "The area of the circle is " << 3.14*r*r;
+    cout << "\nThe perimeter of the circle is " << 2*3.14*r;
+    return 0;
+}
