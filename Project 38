@@ -1,0 +1,21 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int a;
+    cout << "Enter a number\n";
+    cin >> a;
+    cout << a << " * 01 = " << a*1 << "\n";
+    cout << a << " * 02 = " << a*2 << "\n";
+    cout << a << " * 03 = " << a*3 << "\n";
+    cout << a << " * 04 = " << a*4 << "\n";
+    cout << a << " * 05 = " << a*5 << "\n";
+    cout << a << " * 06 = " << a*6 << "\n";
+    cout << a << " * 07 = " << a*7 << "\n";
+    cout << a << " * 08 = " << a*8 << "\n";
+    cout << a << " * 09 = " << a*9 << "\n";
+    cout << a << " * 10 = " << a*10 << "\n";
+    return 0;
+}
