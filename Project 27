@@ -1,0 +1,12 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float b, h;
+    cout << "Enter base and height\n";
+    cin >> b >> h;
+    cout << "The area of the scalene triangle is " << (b * h)/2;
+    return 0;
+}
