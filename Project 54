@@ -1,0 +1,16 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int p, t, r;
+    cout << "Enter the principal\n";
+    cin >> p;
+    cout << "Enter the time\n";
+    cin >> t;
+    cout << "Enter the rate of interest\n";
+    cin >> r;
+    cout << "The simple interest is " << (p*t*r)/100;
+
+}
