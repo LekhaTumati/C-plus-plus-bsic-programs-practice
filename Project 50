@@ -1,0 +1,13 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int l;
+    cout << "Enter the length in centimeters\n";
+    cin >> l;
+    cout << "The length in meters is " << l / 100;
+    cout << "\nThe length in kilometers is " << l / 100000;
+    return 0;
+}
