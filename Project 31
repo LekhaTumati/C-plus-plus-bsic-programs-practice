@@ -1,0 +1,15 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int n;
+    cout << "Input a single digit number";
+    cin >> n;
+    cout << n << n << n << n << "\n";
+    cout << n << n  << "\n";
+    cout << n << n  << "\n";
+    cout << n << n << n << n << "\n";
+    return 0;
+}
