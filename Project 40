@@ -1,0 +1,13 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float l, b;
+    cout << "Enter the length and breadth\n";
+    cin >> l >> b;
+    cout << "The area is " << l*b;
+    cout << "\nThe Perimeter is " << 2*(l+b);
+    return 0;
+}
