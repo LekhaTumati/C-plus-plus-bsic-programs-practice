@@ -1,0 +1,14 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    string firstName, lastName;
+    cout << "Enter your first name\n";
+    cin >> firstName;
+    cout << "Enter your last name\n";
+    cin >> lastName;
+    cout << lastName << " " << firstName << " is your name!!\n";
+    return 0;
+}
