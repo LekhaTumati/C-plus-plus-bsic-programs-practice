@@ -1,0 +1,11 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int kmph;
+    cout << "Enter the speed in kmph\n";
+    cin >> kmph;
+    cout << "The speed in mph is " << kmph * 0.6213712;
+}
